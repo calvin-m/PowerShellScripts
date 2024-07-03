@@ -1,0 +1,1 @@
+Write-Output "Hello world! You've successfully setup your system to run PowerShellScripts!"
