@@ -17,6 +17,8 @@ function Write-ColorOutput($ForegroundColor)
     # restore the original color
     $host.UI.RawUI.ForegroundColor = $fc
 }
+# NOTE: Write-Host "Hello World!" -ForegroundColor Green -BackgroundColor DarkBlue
+
 
 # test
 # Write-ColorOutput red (ls)
